@@ -3,6 +3,7 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 
+print("doing something")
 # Generate some sample data
 np.random.seed(0)
 X = 2 * np.random.rand(100, 1)

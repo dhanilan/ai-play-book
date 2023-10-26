@@ -11,7 +11,7 @@ from sklearn.model_selection import GridSearchCV
 diabetes = datasets.load_diabetes()
 
 # Use only one feature (in this case, the 3rd feature, BMI)
-X = diabetes.data[:,[2]]
+X = diabetes.data[:,[1,2]]
 y = diabetes.target
 
 # Split the data into training and testing sets
